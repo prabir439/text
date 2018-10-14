@@ -1,0 +1,54 @@
+.container{
+    margin: 0;
+    padding: 0;
+
+
+    overflow: hidden;
+    width: 800px;
+}
+.slider{
+    position:relative;
+    width: 3200px;
+    animation: animate 15s infinite;
+}
+@keyframes animate {
+
+    0%{
+    left: 0px;
+        opacity: 0;
+    }
+    20%{
+    left: 0px;
+    opacity: 1;
+    }
+    25%{
+    left: -800px;
+        opacity: 0;
+    }
+    40%{
+        left: -800px;
+        opacity: .7;
+    }
+    45%{
+        left: -1600px;
+        opacity: .6;
+    }
+    60%{
+        left: -1600px;
+        opacity: 1;
+    }
+    65%{
+        left: -2400px;
+        opacity: 0;
+    }
+    80%{
+        left: -2400px;
+        opacity: .5;
+    }
+
+
+}
+.slider img{
+
+    float:left;
+}
